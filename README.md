@@ -1,4 +1,4 @@
-# UK YouTuber Sponsorship Analysis (2024)
+# YouTuber Sponsorship Analysis
 
 An analysis of top UK YouTubers in 2024, identifying key influencers for marketing campaigns using data from Kaggle and the YouTube API, with visualizations in Power BI.
 
@@ -30,17 +30,49 @@ The project follows a structured workflow from data acquisition to final analysi
 4.  **Data Visualization:** The cleaned data is connected to Power BI to build an interactive dashboard. DAX measures are used to calculate key performance indicators (KPIs).
 5.  **Analysis & Recommendation:** The dashboard and underlying data are used to identify top performers and provide strategic recommendations for marketing collaborations.
 
-![Workflow](assets/images/kaggle_to_powerbi.gif)
-
 ## Key Insights (Data-Driven)
 
 The analysis of **100** top UK YouTubers has revealed the following key figures:
 
-*   **Top Channel by Subscribers:** **NoCopyrightSounds** leads the pack with **33,600,000** subscribers.
-*   **Top Channel by Views:** **DanTDM** commands the highest viewership with **19,775,951,435** total views.
-*   **Top Channel by Video Count:** **24 News HD** is the most prolific creator with **165,103** videos.
+### Top 5 by Subscribers
+| Rank | Channel Name | Subscribers |
+|------|--------------|-------------|
+| 1 | NoCopyrightSounds | 33,600,000 |
+| 2 | DanTDM | 28,600,000 |
+| 3 | Dan Rhodes | 26,500,000 |
+| 4 | Miss Katy | 24,500,000 |
+| 5 | Mister Max | 24,400,000 |
 
-These insights are critical for identifying channels that offer the best potential for reach and engagement.
+
+### Top 5 by Total Views
+| Rank | Channel Name | Total Views |
+|------|--------------|-------------|
+| 1 | DanTDM | 19,775,951,435 |
+| 2 | Dan Rhodes | 18,558,843,557 |
+| 3 | Mister Max | 15,973,601,417 |
+| 4 | Miss Katy | 15,462,895,287 |
+| 5 | Jelly | 15,032,515,044 |
+
+
+### Top 5 by Videos Uploaded
+| Rank | Channel Name | Videos Uploaded |
+|------|--------------|-----------------|
+| 1 | 24 News HD | 165,103 |
+| 2 | Sky News | 46,009 |
+| 3 | BBC News عربي | 40,179 |
+| 4 | BBC News | 21,145 |
+| 5 | BBC | 18,714 |
+
+
+### Top 5 by Average Views per Video
+| Rank | Channel Name | Avg. Views/Video |
+|------|--------------|------------------|
+| 1 | Mark Ronson | 322,787,511 |
+| 2 | Jessie J | 59,772,605 |
+| 3 | Dua Lipa | 57,623,428 |
+| 4 | Little Mix | 27,915,448 |
+| 5 | Gaby and Alex | 23,432,676 |
+
 
 ## Tools and Technologies
 
