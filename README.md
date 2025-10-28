@@ -6,11 +6,11 @@ An analysis of top UK YouTubers in 2024, identifying key influencers for marketi
 
 ## Problem Statement
 
-The Head of Marketing needs to identify the most influential UK-based YouTubers to collaborate with for marketing campaigns in 2024. Making data-driven decisions is crucial to maximize the effectiveness and return on investment (ROI) of these campaigns.
+The marketing department needed to make a data-driven decision on which top UK YouTubers to partner with for a new campaign. The objective was to identify influencers who would provide the highest potential return on investment (ROI) based on their channel performance.
 
 ## Objective
 
-The goal is to create a comprehensive analysis and an interactive dashboard that provides insights into the top UK YouTubers. The solution should identify top-performing channels based on metrics like subscriber count, total video views, and the total number of videos uploaded, enabling the marketing team to make informed decisions.
+The goal was to create a comprehensive analysis and an interactive dashboard that provides insights into the top UK YouTubers. The solution identifies top-performing channels based on metrics like subscriber count and total video views, enabling the marketing team to make informed decisions.
 
 ## Data Collection & Summary
 
@@ -20,7 +20,7 @@ This project utilizes a hybrid approach for data collection:
 2.  **Data Enrichment:** A Python script was developed to interact with the **YouTube Data API v3**. This script extracts the latest channel statistics (subscribers, total views, total videos) for the YouTubers identified in the initial dataset.
 3.  **Combined Dataset:** The enriched data is combined into a single, clean CSV file (`youtube_data_from_python.csv`) which serves as the single source of truth for the analysis.
 
-## Project Workflow
+## Project Workflow & Analysis
 
 The project follows a structured workflow from data acquisition to final analysis:
 
@@ -29,10 +29,15 @@ The project follows a structured workflow from data acquisition to final analysi
 3.  **Data Transformation & Quality Assurance:** In SQL Server, a view is created to transform the raw data into a clean, analysis-ready format. Data quality tests are performed to ensure accuracy and consistency (checking for row counts, column counts, data types, and duplicates).
 4.  **Data Visualization:** The cleaned data is connected to Power BI to build an interactive dashboard. DAX measures are used to calculate key performance indicators (KPIs).
 5.  **Analysis & Recommendation:** The dashboard and underlying data are used to identify top performers and provide strategic recommendations for marketing collaborations.
+6.  **ROI Modeling (SQL):** A parameterized SQL script was developed to model the potential net profit of a marketing campaign with different YouTubers, accounting for variables like conversion rate and product cost.
 
-## Key Insights (Data-Driven)
+<p align="center">
+  <img src="assets/images/powerbi_dashboard.png" width="700" alt="YouTuber Analysis Dashboard">
+</p>
 
-The analysis of **100** top UK YouTubers has revealed the following key figures:
+## Key Insights
+
+The analysis of **100** top UK YouTubers revealed the following:
 
 ### Top 5 by Subscribers
 | Rank | Channel Name | Subscribers |
@@ -85,9 +90,8 @@ The analysis of **100** top UK YouTubers has revealed the following key figures:
 
 ## Conclusion and Recommendations
 
-The analysis indicates that different YouTubers offer different strengths. 
+The analysis provided a clear framework for selecting influencers based on specific campaign goals. 
 *   For maximum **subscriber reach**, `NoCopyrightSounds` is the top choice. 
-*   For campaigns targeting the highest **eyeball count**, `DanTDM` is the clear leader. 
-*   For partnerships requiring a high volume of content, `24 News HD` presents a unique opportunity.
+*   For campaigns targeting the highest **view count**, `DanTDM` is the leader. 
 
-It is recommended to align the choice of YouTuber with the specific goals of the marketing campaign (e.g., brand awareness vs. high-frequency product placement). This data-driven approach ensures that marketing efforts are targeted and effective.
+This enables the marketing team to align their choice of YouTuber with strategic goals, ensuring marketing spend is targeted and effective.
